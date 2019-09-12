@@ -12,7 +12,6 @@ package pokergame;
  */
 import java.util.Random;
 import java.util.ArrayList;
-
 public class Deck {
     
     private ArrayList<Card> cards;
@@ -23,9 +22,9 @@ public class Deck {
         Random generator = new Random();
         Card temp;
         
-        for (int a=1; a<=4; a++)
+        for (short a=1; a<=4; a++)
         {
-            for (int b=1; b<=13; b++)
+            for (short b=1; b<=13; b++)
              {
                cards.add(new Card(a,b));
              }
